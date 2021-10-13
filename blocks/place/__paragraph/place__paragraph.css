@@ -1,13 +1,11 @@
 .place__paragraph {
     max-width: 456px;
-    max-height: 377px;
-    min-height: 116px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.63;
+    line-height: 1.6;
     color: #FFFFFF;
-    padding: 0;
+    padding: 0 0 24px 0;
     margin: 0;
 }
 
