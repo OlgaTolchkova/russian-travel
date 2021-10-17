@@ -2,15 +2,26 @@
     display: flex;
     padding: 0;
     max-width: 465px;
-    margin-left: 48px;
-    margin-top: 92px;
+    margin: 0 0 0 48px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .footer__links {
-        margin: 0;
         flex-direction: column;
         max-width: 186px;
-        margin-left: 16px;
+        margin: 0 0 0 16px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .footer__links {
+        max-width: 1184px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__links {
+        max-width: 720px;
+        margin: 0 0 0 24px;
     }
 }
