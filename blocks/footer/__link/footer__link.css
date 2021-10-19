@@ -8,6 +8,7 @@
     text-decoration: none;
     margin-right: 18px;
     transition: opacity .8s linear;
+    
 }
 
 .footer__link:hover {
@@ -25,3 +26,4 @@
         margin-bottom: 0;
     }
 }
+
