@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #2A2C2F;
-    max-width: 1024px;
+    max-width: 1280px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
@@ -12,9 +12,9 @@
     -moz-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1279px) {
     .page {
-        max-width: 1280px;
+        max-width: 1024px;
     }
 }
 
